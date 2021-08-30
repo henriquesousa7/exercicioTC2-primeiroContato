@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { ListarAlunoComponent } from './listar-aluno/listar-aluno.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListarAlunoComponent
   ],
   imports: [
     BrowserModule
@@ -14,3 +16,5 @@ import { AppComponent } from './app.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+// Henrique de Sousa Santos - SC3009165

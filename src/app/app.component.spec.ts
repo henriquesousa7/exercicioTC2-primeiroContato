@@ -29,3 +29,5 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span').textContent).toContain('testeAngular app is running!');
   });
 });
+
+// Henrique de Sousa Santos - SC3009165
